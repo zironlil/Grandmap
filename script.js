@@ -1,5 +1,5 @@
 const map = L.map('map', { crs: L.CRS.Simple, minZoom: 1, maxZoom: 4 });
-const imageUrl = 'map.png';
+const imageUrl = 'map.jpg';
 const imageBounds = [[0, 0], [1000, 1000]];
 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 map.fitBounds(imageBounds);

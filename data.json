@@ -1,0 +1,61 @@
+{
+  "houses": [
+    {
+      "id": "h1",
+      "name": "Дом на Ленина 15",
+      "x": 340,
+      "y": 210,
+      "status": "free",
+      "owner": "Нет владельца",
+      "shape": "П-образный",
+      "apartments": {
+        "entrance_1": {
+          "floor_1": ["101", "102"],
+          "floor_2": ["201", "202"]
+        },
+        "entrance_2": {
+          "floor_1": ["103", "104"],
+          "floor_3": ["301", "302"]
+        }
+      }
+    },
+    {
+      "id": "h2",
+      "name": "Дом у рынка",
+      "x": 410,
+      "y": 190,
+      "status": "occupied",
+      "owner": "Alex_Player",
+      "shape": "прямоугольный",
+      "apartments": {
+        "entrance_1": {
+          "floor_1": ["105"],
+          "floor_2": ["205", "206"]
+        }
+      }
+    }
+  ],
+  "businesses": [
+    {
+      "id": "b1",
+      "type": "24/7",
+      "x": 500,
+      "y": 250,
+      "owner": "Ivan_Ivanov",
+      "prices": {
+        "frames": 1200,
+        "markup": 15
+      }
+    },
+    {
+      "id": "b2",
+      "type": "Автостоянка",
+      "x": 600,
+      "y": 300,
+      "owner": "Max_Drive",
+      "prices": {
+        "spawn": 3600
+      }
+    }
+  ]
+}
